@@ -54,7 +54,7 @@ async def sumit_boot():
     LOGGER.info("» ɢᴏᴏᴅ ʙʏᴇ ! sᴛᴏᴘᴘɪɴɢ ʙᴏᴛ.")
 
 def run_web():
-    web_app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+    web_app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8081)))
 
 if __name__ == "__main__":
     threading.Thread(target=run_web).start()  # Start web server in background
